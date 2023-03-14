@@ -1,0 +1,136 @@
+/* default styles */
+html {
+  display: inline-block;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  background-color: lightyellow;
+  margin-bottom: 10%;
+}
+
+h1 {
+  background-size: cover;
+  color: rgb(255,250,25,0);
+  height: 60vh;
+  padding: auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 6rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 3px black;
+}
+
+h2 {
+  max-width: 90%;
+  margin-left: 2%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: black
+}
+
+p {
+  margin-left: 2%;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  color: black
+}
+
+li {
+  margin-left: 2%;
+  margin-top: 1px;
+  margin-bottom: 2rem;
+  color: black
+}
+
+.box {
+  border-radius: 20px;
+  display: inline-block;
+  border: 2px solid black;
+  padding: 2%;
+  margin-bottom: 2%;
+}
+
+table {
+  border-collapse: collapse;
+  width: 90%;
+  max-width: 1300px;
+  height: 200px;
+  margin-bottom: 10%;
+}
+
+th, td {
+  border: 1px solid black;
+  padding: 1%;
+  text-align: left;
+}
+
+th {
+  background-color: #ddd;
+  font-weight: bold;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+img { 
+  border: 1px solid black;
+  margin-left: 2%;
+  margin-right: 4%;
+  margin-top: 4%; 
+  max-width: 90%;
+}
+
+a {  color: white; 
+        text-decoration: none; 
+      }
+
+.image {
+  display: flex;
+  align-items: center;
+}
+
+.text {
+  margin-right: 2%;
+}
+
+@media (max-width: 767px) {
+  html {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  h1 {
+    height: 40vh;
+    font-size: 4rem;
+  }
+  table {
+    width: 200%;
+    max-width: none;
+  }
+  img {
+    margin-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  h1 {
+    height: 50vh;
+    font-size: 5rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  h1 {
+    height: 60vh;
+    font-size: 6rem;
+  }
+}
+
+
